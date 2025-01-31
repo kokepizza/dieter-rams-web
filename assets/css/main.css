@@ -166,6 +166,12 @@ table {
 :root {
     --bg-color: #FFFEF9;
     --text-color: #1C1C1C;
+    --red-color: rgb(171, 27, 27);
+}
+
+::selection {
+    background-color: var(--text-color);
+    color: var(--red-color);
 }
 
 body {
@@ -259,4 +265,42 @@ a {
     top: 50%;
     transform: translateY(-50%);
     left: 4vw;
+}
+
+/* AWARDS */
+
+.heading-awards {
+    position: fixed;
+    white-space: nowrap;
+    font-size: 20vw;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -50px;
+    z-index: 50;
+    color: #e3e3e3;
+    mix-blend-mode: difference;
+}
+
+.awards-container {
+    width: 40%;
+    height: 100%;
+    overflow: auto;
+    position: relative;
+    left: 44px;
+    padding-top: 200px;
+}
+
+.awards-list {
+    text-align: left;
+
+    li {
+        margin-bottom: 16px;
+    }
+}
+
+.awards-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40vw;
 }
