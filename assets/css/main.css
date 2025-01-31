@@ -241,7 +241,7 @@ a {
 /* ABOUT */
 
 .heading-about {
-    position: absolute;
+    position: fixed;
     white-space: nowrap;
     font-size: 27vw;
     bottom: 10px;
@@ -250,7 +250,7 @@ a {
 }
 
 .about-img {
-    position: absolute;
+    position: fixed;
     object-fit: contain;
     width: 40vw;
     top: 50%;
@@ -259,12 +259,8 @@ a {
 }
 
 .about-txt {
-    position: absolute;
-    object-fit: contain;
-    width: 40vw;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 4vw;
+    width: 35vw;
+    padding: 120px 44px;
 }
 
 /* AWARDS */
