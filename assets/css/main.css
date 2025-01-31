@@ -340,3 +340,69 @@ a {
         font-size: 40vh;
     }
 }
+
+/* SK4 PHONOSUPER */
+
+.sk4-heading {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 4%;
+    font-size: 19vw;
+    white-space: nowrap;
+}
+
+.thumbnail {
+    position: fixed;
+    right: 24px;
+    width: 100px;
+
+    img {
+        object-fit: cover;
+        width: 100px;
+    }
+}
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sk4,
+.tp1,
+.easy-chair {
+    top: 24px;
+}
+
+.t3,
+.hld4,
+.et66 {
+    bottom: 24px;
+}
+
+.sk4-1 {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+
+    img {
+        width: 25vw;
+        object-fit: contain;
+    }
+
+    .sk4-txt {
+        margin-top: 40px;
+        width: 25vw;
+    }
+}
+
+.sk4-2 {
+    position: fixed;
+    left: 48%;
+    bottom: 12%;
+
+    img {
+        width: 30vw;
+        object-fit: contain;
+    }
+}
