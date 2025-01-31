@@ -252,15 +252,15 @@ a {
 .about-img {
     position: fixed;
     object-fit: contain;
-    width: 40vw;
-    top: 50%;
+    height: 40vw;
+    top: 45%;
     transform: translateY(-50%);
     right: 10vw;
 }
 
 .about-txt {
     width: 35vw;
-    padding: 120px 44px;
+    padding: 120px;
 }
 
 /* AWARDS */
