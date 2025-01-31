@@ -509,3 +509,47 @@ a {
     width: 25vw;
     object-fit: cover;
 }
+
+/* 601 EASY CHAIR */
+
+.easy-chair-heading {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 4%;
+    font-size: 22vw;
+    white-space: nowrap;
+}
+
+.easy-chair-1 {
+    position: fixed;
+    top: 15%;
+    left: 3%;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+
+    img {
+        width: 24vw;
+        object-fit: contain;
+    }
+
+    .easy-chair-txt {
+        width: 30vw;
+        margin-bottom: 24px;
+    }
+}
+
+.easy-chair-2 {
+    position: fixed;
+    bottom: 15%;
+    right: 15%;
+    display: flex;
+    align-items: flex-end;
+    gap: 40px;
+
+    img {
+        width: 35vw;
+        object-fit: contain;
+    }
+}
