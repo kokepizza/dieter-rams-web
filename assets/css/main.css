@@ -360,6 +360,7 @@ a {
     img {
         object-fit: cover;
         width: 100px;
+        aspect-ratio: 1/1;
     }
 }
 
@@ -403,6 +404,47 @@ a {
 
     img {
         width: 30vw;
+        object-fit: contain;
+    }
+}
+
+/* T3 TRANSISTOR */
+
+.t3-heading {
+    position: fixed;
+    font-size: 22vw;
+    white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 22%;
+}
+
+.t3-1 {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    display: flex;
+    align-items: flex-end;
+    gap: 40px;
+
+    img {
+        width: 30vw;
+        object-fit: contain;
+    }
+
+    .t3-txt {
+        width: 30vw;
+        margin-bottom: 24px;
+    }
+}
+
+.t3-2 {
+    position: fixed;
+    top: 30%;
+    right: 10%;
+
+    img {
+        width: 20vw;
         object-fit: contain;
     }
 }
