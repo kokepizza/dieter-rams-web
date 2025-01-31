@@ -553,3 +553,51 @@ a {
         object-fit: contain;
     }
 }
+
+/* HLD4 */
+
+.hld4-heading {
+    position: fixed;
+    left: -2%;
+    bottom: 6%;
+    font-size: 20vw;
+    white-space: nowrap;
+}
+
+.hld4-1 {
+    position: fixed;
+    top: 10%;
+    left: 4%;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+
+    img {
+        width: 20vw;
+        object-fit: contain;
+    }
+
+    .hld4-txt {
+        width: 30vw;
+    }
+}
+
+.hld4-2 {
+    position: fixed;
+    top: 15%;
+    right: 5%;
+
+    img {
+        width: 27vw;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+    }
+}
+
+.hld4-3 {
+    position: fixed;
+    bottom: 15%;
+    left: 24%;
+    width: 25vw;
+    object-fit: cover;
+}
