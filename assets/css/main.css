@@ -140,27 +140,27 @@ table {
 
 @font-face {
     font-family: 'Pangram-Light';
-    src: url('/assets/fonts/PPPangramSans-Light.otf') format('opentype');
+    src: url('../fonts/PPPangramSans-Light.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Pangram-CompressedExtrabold';
-    src: url('/assets/fonts/PPPangramSans-CompressedExtrabold.otf') format('opentype');
+    src: url('../fonts/PPPangramSans-CompressedExtrabold.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Pangram-Medium';
-    src: url('/assets/fonts/PPPangramSans-Medium.otf') format('opentype');
+    src: url('../fonts/PPPangramSans-Medium.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Pangram-SlimExtralight';
-    src: url('/assets/fonts/PPPangramSans-SlimExtralight.otf') format('opentype');
+    src: url('../fonts/PPPangramSans-SlimExtralight.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Pangram-Reclined';
-    src: url('/assets/fonts/PPPangramSans-SlimMediumReclined.otf') format('opentype');
+    src: url('../fonts/PPPangramSans-SlimMediumReclined.otf') format('opentype');
 }
 
 :root {
