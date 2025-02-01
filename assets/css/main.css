@@ -205,6 +205,10 @@ a {
     color: inherit;
 }
 
+footer {
+    display: none;
+}
+
 /* NAV */
 
 .header {
@@ -261,6 +265,8 @@ a {
 .about-txt {
     width: 35vw;
     padding: 120px;
+    color: #e3e3e3;
+    mix-blend-mode: difference;
 }
 
 /* AWARDS */
@@ -645,4 +651,26 @@ a {
     left: 4%;
     width: 25vw;
     object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+
+    main,
+    header {
+        display: none;
+    }
+
+    footer {
+        display: block;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        h2 {
+            font-size: 16vw;
+            line-height: 1;
+            text-align: center;
+        }
+    }
 }
